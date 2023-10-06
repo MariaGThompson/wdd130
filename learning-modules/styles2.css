@@ -1,0 +1,63 @@
+
+nav {
+    color: white;
+    text-align: center;
+    font-size: 3em;
+}
+nav:hover {
+    color: black;
+}
+
+body {
+    background-color: rgba(249, 164, 178, 0.819);
+}
+h4 {
+    color: white;
+    text-align: center;
+    margin: 5px;
+    width: 0 auto;
+}
+p {
+    color: white;
+    text-align: center;
+    margin: 50px auto;
+    width: 40%;
+    font-size: 2.5em;
+}
+h3 {
+    color: white;
+    text-align: center;
+    margin: 30px auto;
+    width: 50%;
+}
+div.container {
+    text-align: center;
+}
+ul.myList {
+    color: black;
+    text-align: left;
+    display: inline-block;
+    list-style-type: none;  
+}
+
+div {
+    color: white;
+    text-align: center;
+}
+img {
+    padding: center;
+    width: 15%;
+    margin: 20px auto;
+    display: block;
+
+}
+footer {
+    color: black;
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px ;
+    font-size: 1.0em ;
+    
+    
+}
