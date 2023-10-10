@@ -2,19 +2,19 @@
 
 nav {
     background-color: steelblue;
-    padding: 10px;
+    padding: 25px;
     text-align: center;
 }
-
 a {
     color: white;
     margin: 40px;
     font-size: 1.5em;
+    padding: 25px;
   }
-
 h1 {
     color: steelblue;
     text-align: center;
+    margin: 50px 0;
 }
 img {
     width: 80%;
@@ -31,6 +31,7 @@ footer {
     text-align: center;
     font-size: 20px;
     margin: 20px auto;
+    padding: 25px;
 }
 .main-para {
     font-size: 1.5em;
@@ -40,8 +41,9 @@ footer {
     text-align: center;
 }
 #active {
-    background-color: white;
-    color: steelblue;
+    /*background-color: white;*/
+    /*color: steelblue;*/
+    color: white;
 }
 nav, footer {
     background-color: steelblue;
@@ -51,4 +53,7 @@ nav, footer {
 a:hover {
     background-color: white;
     color: steelblue;
+}
+body {
+    margin: 50px auto;
 }
