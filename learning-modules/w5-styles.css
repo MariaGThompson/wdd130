@@ -1,27 +1,17 @@
+h2 {
+    margin-top: -10px; 
+    margin-left: -10px;
 
-div img {
+}
+div img{
     border-radius: 50%;
     width: 300px;
     margin: 50px;
-    /*box-sizing: border-box;*/
-    border: 10px solid rgb(89, 85, 85); 
+    border: 10px solid rgb(89, 85, 85);  
 }
-#content {
-   /* max-width: 1600px;*/
+div img {   
 }
-body {
-    background-color: rgb(128, 121, 121);
-}
-html, body #wrapper {
-    width: 100%;
-    min-height: 100%;
-    
-}
-header img {
-    width: 0 auto;
-    padding: 
-}
-main div {
-    /*background-color: rgb(135, 133, 133);*/
-    padding: 10px;
+div {
+    background-color: grey;
+    margin: -26px;
 }

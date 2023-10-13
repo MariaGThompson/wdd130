@@ -15,7 +15,7 @@ h4 {
     color: white;
     text-align: center;
     margin: 5px;
-    width: 0 auto;
+    width: auto;
 }
 p {
     color: white;
@@ -39,17 +39,14 @@ ul.myList {
     display: inline-block;
     list-style-type: none;  
 }
-
 div {
     color: white;
     text-align: center;
 }
 img {
-    padding: center;
     width: 15%;
     margin: 20px auto;
     display: block;
-
 }
 footer {
     color: black;
@@ -58,6 +55,4 @@ footer {
     text-align: center;
     padding: 40px ;
     font-size: 1.0em ;
-    
-    
 }
