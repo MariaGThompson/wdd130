@@ -25,7 +25,7 @@ nav {
     padding: 50px;
     grid-column: 2/3;
     grid-row: 1/2;
-    margin-top: 100px;
+    margin-top: 75px;
 }
 #hero-box {
     grid-column: 1/4;
@@ -33,8 +33,7 @@ nav {
     z-index: -1;
 }
 #hero-msg h4 {
-   /*color: white;*/
-   color: black;
+   color: #e9b44c;
 }
 .button-box {
     text-align: center;
@@ -129,7 +128,6 @@ footer .social img {
     margin-top: 10px;
 }
 h4 /* make memories with */ { 
-    color: #e9b44c;
     font-family: Inter, Helvetica, sans-serif;
 }
 .msg h2 /*more than just the thrill*/ {

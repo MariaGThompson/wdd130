@@ -1,0 +1,80 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 400px 1fr ;
+    grid-template-rows: 1fr 100px 100px 1fr 100px ;
+    
+    
+}
+body {
+    /*border-color: black;*/
+    border-radius: 20px;
+    /*border-style:solid ;*/
+    background-color: white;
+    display: inline-block;
+    border: 1px;
+    
+    
+
+}
+header {
+   
+    grid-column: 2;
+    grid-row: 1;
+}
+img {
+    width: 400px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.weeks {
+   
+    grid-column: 2;
+    grid-row: 2;
+    color: rgba(0, 0, 255, 0.779);
+}
+.post {
+    grid-row: 3;
+    color: black;
+}
+.p {
+    text-align: center;
+    grid-column: 2;
+    grid-row: 4;
+    color: grey;
+}
+main {
+    grid-column: 2;
+    text-align: center;
+    
+}
+/*footer {
+    grid-column: 2;
+    grid-row: 5;
+}*/
+.reads {
+   text-align: center;
+   margin-left: -300px;
+   grid-column: 2;
+   grid-row: 5;
+   margin-top: 40px;
+}
+.visitors {
+    text-align: center;
+    grid-column: 2;
+    grid-row: 5;
+    margin-top: -40px; 
+} 
+.comments {
+    text-align: center;
+    margin-right: -300px;
+    margin-top: -40px;
+    grid-column: 2;
+    grid-row: 5;
+}
+.reads, .visitors, .comments {
+    padding: 46px;
+    background-color: rgba(0, 0, 255, 0.753);
+    display: inline-block;
+     color: white;
+}
