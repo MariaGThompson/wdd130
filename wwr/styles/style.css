@@ -271,9 +271,6 @@ h2 {
     
 }
 
-
-
-
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -315,4 +312,3 @@ h2 {
         margin-top: 25px;
     }
 }
-            
