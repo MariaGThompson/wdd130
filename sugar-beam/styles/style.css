@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Kalam&display=swap');
 
 #content {
-    max-width: auto;
+    max-width: 1600px;
     margin: -50px;
     margin-left: -170px; 
     
@@ -9,21 +9,17 @@
 .home-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
-    grid-template-rows: 1fr 2fr 1fr  ;
 }
-
 .logo {
     width: 90px; 
     padding: 20px;
     margin-left: 5px;
     margin-top: -135px;
 }
-
 header {
     width: 1550px;
     margin: 0;
     padding: 0;
- 
 }
 nav a {
     text-align: center;
@@ -36,36 +32,44 @@ nav {
     display: flex;
     justify-content: space-around;
 }
-#home p {
+#home p /* sugar beam heading */ {
     text-align: left;
 }
-#Laser_homepage {
-    width: 1550px; 
+#Laser_homepage /*main page pic*/{
+    width: 1550px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #aa2424; 
 }
-#h-p1 {
+#h-p1 /*main body text*/ {
     grid-column: 1/7;
-    grid-row: 1;
     margin-right: -130px;
     margin-top: 40px;
     padding: 40px;
     background-color: #aabd8c;
-    color: #ffffff;  
+    font-size: 25px; 
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #aa2424;
 }
-.h-pic2 {
+.h-pic2 /*second pic on main page*/ {
     grid-column: 1/5;
     grid-row: 2;
     height: 500px;
     margin-top: 40px;
+    margin-right: 45px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #aa2424;
 }
-.h-msg {
+.h-msg /*albert saying*/ {
     grid-column: 5/7;
     grid-row: 2;
     text-align: right;
-    margin-top: 160px;
+    margin-top: 120px;
     margin-right: -70px;
-    font-size: x-large;   
+    font-size: 30px;  
 }
-
 footer {
     background-color: #aabd8c;
     font-family: Inter, Helvetica, sans-serif;
@@ -73,18 +77,14 @@ footer {
     justify-content: space-around;
     align-items: center;
     width: 1550px;
-    margin-top: -275px;
-    
 }
 footer a {
     color: #aa2424;
     text-decoration: none;
 }
 footer a:hover {
-    background-color: #aabd8c;
-   
+    background-color: #aabd8c; 
 }
-
 footer p a:hover {
     font-size: 1.2em;
     text-decoration: underline;
@@ -96,6 +96,148 @@ footer .social img {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -20px;
+    margin-top: -20px; 
+}
+
+/*Getting Started, Second Page*/
+
+#GT-content {
+    max-width: 1600px;
+    margin: -50px;
+    margin-left: -170px;  
+}
+#head {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+}
+.PName /*name of page*/ {
+    text-align: start;
+}
+#GT-head /* top text*/ {
+    grid-column: 1/5;
+    /*border-radius: 20px;
+    border-style: solid;
+    border-color: #aa2424;*/
+    padding: 40px;
+    width: 100%;
+
+}
+.GT {
+    display: inline-grid;
+    grid-template-columns: auto auto auto ;
     
+}
+#GT-1 /*Types pic*/ {
+    grid-column: 6/9;
+    max-width: 600px;
+    margin-bottom: 20px;
+    margin-left: -25px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #aa2424;
+    
+}
+.GT-pic1 /* Diode pic*/ {
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+.GT-msg1 /* Diode text */ {
+    grid-column: 2;
+    text-align: left;
+    /*padding: 40px;*/
+    background-color: #aabd8c;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #aa2424;
+    width: 700px;
+    height: 350px;
+    margin-inline-end: -100px;
+    margin-top: 50px;
+    
+    
+}
+.GT-msg2 /* CO2 text*/ {
+    grid-column: 1;
+    text-align: left;
+   background-color: #aabd8c;
+   margin-bottom: 20px;
+   border-radius: 20px;
+    border-style: solid;
+    border-color: #aa2424;
+}
+.GT-pic2 /*CO2 pic */ {
+    grid-column: 2/4;
+    max-width: 600px;
+    margin-left: 50px;
+}
+.GT-pic3 /*Fiber pic*/ {
+    max-width: 600px;
+    max-height: 400px;
+    margin-bottom: 20px;
+}
+.GT-msg3 /* Fiber text */ {
+    text-align: left;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    background-color: #aabd8c;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #aa2424;
+    
+}
+
+
+
+
+
+@media screen and (max-width: 900px) {
+     /*html, body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+     }*/
+    .home-grid, GT {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    header {
+        width: 900px;
+    }
+    #home p /*sugar beam heading*/ {
+        margin-top: 60px;
+        margin-left: 100px;
+    }
+    .logo {
+        margin-top: -200px;
+        margin-left: 100px;
+    }
+    #Laser_homepage /* main head pic*/ {
+        max-width: 900px;
+    }
+    #h-p1 /*main text*/ {
+        margin-left: 65px;
+        max-width: 90%; 
+    }
+    .h-pic2 /* second pic main pg*/ {
+        padding: 7px;
+        max-width: max-content;
+    }
+    .h-msg /*albert msg*/ {
+        width: 60%;
+        margin-left: 180px;
+        margin-top: 50px; 
+    }
+    footer {
+        margin-top: 25px;
+        max-width: 900px;
+    }
 }
