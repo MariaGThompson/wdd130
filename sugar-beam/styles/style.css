@@ -32,8 +32,9 @@ nav {
     display: flex;
     justify-content: space-around;
 }
-#home p /* sugar beam heading */ {
+#home h1 /* sugar beam heading */ {
     text-align: left;
+    margin-left: 30px;
 }
 #Laser_homepage /*main page pic*/{
     width: 1550px;
@@ -112,6 +113,7 @@ footer .social img {
 }
 .PName /*name of page*/ {
     text-align: start;
+    margin-left: 30px;
 }
 #GT-head /* top text*/ {
     grid-column: 1/5;
