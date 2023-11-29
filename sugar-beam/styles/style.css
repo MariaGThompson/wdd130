@@ -199,6 +199,60 @@ footer .social img {
     margin-left: 20px;
 }
 
+/* Third Page-Events */
+
+    .events {
+        display: grid;
+        grid-template-columns: 3fr auto;
+    }
+    #E-head h1 /*Name page*/ {
+        text-align: left;
+        margin-left: 30px;
+    }
+    .E-msg1 /*top text*/ {
+        grid-column: 1/6;
+        grid-row: 1;
+        width: 1580px;
+        font-size: 22px;
+        background-color: #aabd8c;
+        border-radius: 20px;
+        border-style: solid;
+        border-color: #aa2424; 
+    }
+    .E-pic1 /* First pic*/ {
+        grid-column: 1/6;
+        grid-row: 2;
+        width: 1550px;
+        padding-top: 30px;
+    }
+    .E-pic2 /*second pic*/ {
+        grid-column: 1/6;
+        grid-row: 5;
+        width: 1550px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    hr /*the line*/ {
+        grid-column: 1/6;
+        grid-row: 3;  
+    }
+    .faq /*All of the questions*/ {
+        text-align: left;
+        text-indent: 10px;
+        background-color: #aabd8c;
+        border-radius: 20px;
+        border-style: solid;
+        border-color: #aa2424;
+        width: 1550px;
+
+    }
+    .E-Q1 h2 /*heading name for FAQ*/ {
+        text-align: left;
+        margin-left: 20px;
+      
+
+    }
+
 @media screen and (max-width: 900px) {
    
     .home-grid, GT {
