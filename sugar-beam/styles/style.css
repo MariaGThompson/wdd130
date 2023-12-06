@@ -144,6 +144,7 @@ footer .social img {
     max-width: 500px;
     margin-bottom: 20px;
 }
+
 .GT-msg1 /* Diode text */ {
     grid-column: 2;
     text-align: left;
@@ -358,6 +359,40 @@ footer .social img {
     .GT-msg3 {
         width: 425px;
         height: 280px;
+        margin-left: 110px;
+    }
+
+    /*Events */
+
+    .events{
+        max-width: 900px;
+        min-width: 200px;
+        display: block;
+        height: auto;
+    }
+    #E-head h1 {
+        margin-left: 280px;
+        margin-top: 80px;
+    }
+    .E-msg1 {
+        width: 425px;
+        margin-left: 108px;
+    }
+    .E-pic1 {
+        width: 425px;
+        margin-left: 110px;
+    }
+    hr {  
+        width: 50px;
+        
+    }
+    .faq {
+        width: 430px;
+        margin-left: 105px;
+        text-align: left;
+    }
+    .E-pic2 {
+        width: 425px;
         margin-left: 110px;
     }
 
