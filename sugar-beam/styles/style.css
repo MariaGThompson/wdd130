@@ -37,15 +37,17 @@ nav {
     margin-left: 30px;
 }
 #Laser_homepage /*main page pic*/{
-    width: 1550px;
+    width: 1500px;
+    margin-left: 15px;
     border-radius: 20px;
     border-style: solid;
     border-color: #aa2424; 
 }
 #h-p1 /*main body text*/ {
     grid-column: 1/7;
-    margin-right: -130px;
     margin-top: 40px;
+    width: 1420px;
+    margin-left: 15px;
     padding: 40px;
     background-color: #aabd8c;
     font-size: 25px; 
@@ -58,7 +60,7 @@ nav {
     grid-row: 2;
     height: 500px;
     margin-top: 40px;
-    margin-right: 45px;
+    margin-left: 15px;
     border-radius: 20px;
     border-style: solid;
     border-color: #aa2424;
@@ -239,7 +241,7 @@ footer .social img {
     hr /*the line*/ {
         grid-column: 1/6;
         grid-row: 3; 
-        width: 1550px;
+        width: 15px;
     }
     .faq /*All of the questions*/ {
         text-align: left;
