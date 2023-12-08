@@ -213,7 +213,8 @@ footer .social img {
     .E-msg1 /*top text*/ {
         grid-column: 1/6;
         grid-row: 1;
-        width: 1580px;
+        width: 1500px;
+        margin-left: 15px;
         font-size: 22px;
         background-color: #aabd8c;
         border-radius: 20px;
@@ -223,19 +224,22 @@ footer .social img {
     .E-pic1 /* First pic*/ {
         grid-column: 1/6;
         grid-row: 2;
-        width: 1550px;
+        width: 1500px;
+        margin-left: 15px;
         padding-top: 30px;
     }
     .E-pic2 /*second pic*/ {
         grid-column: 1/6;
         grid-row: 5;
-        width: 1550px;
+        width: 1500px;
+        margin-left: 15px;
         padding-top: 20px;
         padding-bottom: 20px;
     }
     hr /*the line*/ {
         grid-column: 1/6;
-        grid-row: 3;  
+        grid-row: 3; 
+        width: 1550px;
     }
     .faq /*All of the questions*/ {
         text-align: left;
@@ -244,7 +248,8 @@ footer .social img {
         border-radius: 20px;
         border-style: solid;
         border-color: #aa2424;
-        width: 1550px;
+        width: 1500px;
+        margin-left: 15px;
 
     }
     .E-Q1 h2 /*heading name for FAQ*/ {
@@ -284,14 +289,14 @@ footer .social img {
         max-width: 550px;
     }
     #h-p1 /*main text*/ {
-        margin-left: 65px;
-        max-width: 77%; 
+        margin-left: 102px;
+        max-width: 355px; 
       
     }
     .h-pic2 /* second pic main pg*/ {
         padding: 7px;
-        max-width: 77%;
-        margin-left: 110px;
+        max-width: 415px;
+        margin-left: 105px;
     }
     .h-msg /*albert msg*/ {
         width: 60%;
@@ -382,9 +387,8 @@ footer .social img {
         width: 425px;
         margin-left: 110px;
     }
-    hr {  
-        width: 50px;
-        
+    hr {
+        width: 540px;
     }
     .faq {
         width: 430px;
