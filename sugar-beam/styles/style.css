@@ -241,7 +241,7 @@ footer .social img {
     hr /*the line*/ {
         grid-column: 1/6;
         grid-row: 3; 
-        width: 15px;
+        width: 1550px;
     }
     .faq /*All of the questions*/ {
         text-align: left;
