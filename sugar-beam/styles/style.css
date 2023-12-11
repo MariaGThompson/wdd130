@@ -142,22 +142,22 @@ footer .social img {
     border-style: solid;
     border-color: #aa2424;
 }
-.GT-pic1 /* Diode pic*/ {
-    max-width: 500px;
+.GT-pic1 img /* Diode pic*/ {
     margin-bottom: 20px;
+    width: 550px; 
+    margin-left: 50px; 
 }
-
 .GT-msg1 /* Diode text */ {
-    grid-column: 2;
+    grid-column: 2/3;
     text-align: left;
+    margin-left: 75px;
+    width: 700px;
+    height: 350px;
+    margin-top: 75px; 
     background-color: #aabd8c;
     border-radius: 20px;
     border-style: solid;
-    border-color: #aa2424;
-    width: 700px;
-    height: 350px;
-    margin-inline-end: -100px;
-    margin-top: 50px;  
+    border-color: #aa2424; 
 }
 .GT-msg1 h2 /* Diode Laser Header*/ {
     text-align: left;
@@ -166,7 +166,10 @@ footer .social img {
 .GT-msg2 /* CO2 text*/ {
     grid-column: 1;
     text-align: left;
-    margin-left: 40px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 40px;
+    width: 600px;
     background-color: #aabd8c;
     margin-bottom: 20px;
     border-radius: 20px;
@@ -177,21 +180,29 @@ footer .social img {
     text-align: left;
     margin-left: 20px;
 }
-.GT-pic2 /*CO2 pic */ {
+.GT-pic2 img /*CO2 pic */ {
     grid-column: 2/4;
-    max-width: 600px;
-    margin-left: 50px;
+    width: 650px;
+    margin-left: 150px;
 }
 .GT-pic3 /*Fiber pic*/ {
-    max-width: 600px;
-    max-height: 400px;
-    margin-bottom: 20px;
+    grid-column: 1/2;
+    grid-row: 3/4; 
+    
+}
+.GT-pic3 img /*Fiber Pic */ {
+    width: 550px;
+    padding: 20px;
+   
 }
 .GT-msg3 /* Fiber text */ {
+    grid-column: 2/3;
+    grid-row: 3/4;
     text-align: left;
-    margin-left: 60px;
-    margin-top: 50px;
+    margin-left: 100px;
+    margin-top: 150px;
     height: 215px;
+    width: 600px;
     background-color: #aabd8c;
     border-radius: 20px;
     border-style: solid;
@@ -200,6 +211,11 @@ footer .social img {
 .GT-msg3 h2 {
     text-align: left;
     margin-left: 20px;
+}
+.GT-msg3 h1 {
+    margin-top: 100px;
+    text-align: center;
+    color: #aa2424;
 }
 
 /* Third Page-Events */
@@ -340,9 +356,11 @@ footer .social img {
         width: 425px;
         margin-left: 110px;
     }
-    .GT-pic1 {
+    .GT-pic1 img {
         width: 425px;
-        margin-left: 110px ;
+        margin-left: 115px;
+        margin-top: 20px;
+        
     }
     .GT-msg1 {
         width: 425px;
@@ -353,20 +371,27 @@ footer .social img {
         width: 425px;
         height: 410px;
         margin-left: 110px;
-        margin-top: -70px; 
+        margin-top: -60px;
+     
     }
-    .GT-pic2 {
+    .GT-pic2 img {
         width: 425px;
         margin-left: 110px;
     }
-    .GT-pic3 {
+    .GT-pic3 img {
         width: 425px;
-        margin-left: 110px;
+        margin-left: 90px;
     }
     .GT-msg3 {
         width: 425px;
         height: 280px;
         margin-left: 110px;
+        margin-top: 20px;
+    }
+    .GT-msg3 h1 {
+        margin-top: 5px;
+        font-size: 20px;
+        
     }
 
     /*Events */
